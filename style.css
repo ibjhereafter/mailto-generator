@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+form {
+    background: #111;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 7px #000;
+}
+
+form div {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form label {
+    color: #fff;
+    font-size: 20px;
+}
+
+form textarea, form input {
+    width: 150px;
+    padding: 7px;
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    transition: border .5s ease;
+}
+
+form textarea:focus, form input:focus {
+    border: 2px solid #111;
+}
+
+form button {
+    padding: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #2b3083;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+form button:hover, form button:focus {
+    opacity: 0.7;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+.alertCont {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -100vw;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
+
+.alert {
+    padding: 10px;
+    background: #111;
+    border-radius: 2px;
+    color: #fff;
+}
