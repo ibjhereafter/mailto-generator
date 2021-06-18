@@ -1,2 +1,2 @@
-# mailto-generator
-Generates a link that redirects to mail
+# Mailto Generator
+Generates a link that redirects to mail app with some specifications
