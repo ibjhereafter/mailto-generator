@@ -11,7 +11,6 @@ console.log("hello");
 let secondConsoleLine;
 const thirdConsoleLine = null;
 const fourthConsoleLine = null;
-const Hi = "hi"
 
 form.addEventListener('submit', e => {
     e.preventDefault()
