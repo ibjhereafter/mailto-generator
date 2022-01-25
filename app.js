@@ -8,7 +8,7 @@ const alertCont = document.querySelector('.alertCont')
 const alertLink = document.querySelector('.alertCont .alert')
 
 console.log("hello");
-const secondConsoleLine = null;
+const secondConsoleLine = 3;
 const thirdConsoleLine = null;
 const fourthConsoleLine = null;
 
