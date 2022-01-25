@@ -7,6 +7,8 @@ const body = document.querySelector('form #body')
 const alertCont = document.querySelector('.alertCont')
 const alertLink = document.querySelector('.alertCont .alert')
 
+console.log("hello");
+
 form.addEventListener('submit', e => {
     e.preventDefault()
 
