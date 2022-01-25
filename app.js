@@ -9,7 +9,8 @@ const alertLink = document.querySelector('.alertCont .alert')
 
 console.log("hello");
 const secondConsoleLine = null;
-const thirdConsoleLine - null;
+const thirdConsoleLine = null;
+const fourthConsoleLine = null;
 
 form.addEventListener('submit', e => {
     e.preventDefault()
